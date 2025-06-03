@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: #f2f2f2;
+  color: #333;
+}
+header {
+  background: #2d2dff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+.hero {
+  background: #d0d0ff;
+  padding: 2rem;
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.feature {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.product-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.auth-form {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.auth-form input, .auth-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.product-detail {
+  text-align: center;
+}
+.viewer img {
+  max-width: 100%;
+  border: 2px solid #ccc;
+  margin: 1rem 0;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2d2dff;
+  color: white;
+  margin-top: 2rem;
+}
